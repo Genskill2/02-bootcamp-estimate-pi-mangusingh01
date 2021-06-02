@@ -3,11 +3,11 @@ import unittest
 import random
 def wallis(x):
   pi=1
-  for i in range(1,n+1):
+  for i in range(1,x+1):
     pi*=(4*i*i)/(4*i*i-1)
   return pi*2
   
-def monte_carlo(x):
+def monte_carlo(n):
   in_the_circle=0
   total=0
   for i in range(n):
