@@ -8,7 +8,6 @@ def wallis(x):
   return pi*2
   
 def monte_carlo(x):
-  n =int(input())
   in_the_circle=0
   total=0
   for i in range(n):
